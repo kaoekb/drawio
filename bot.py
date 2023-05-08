@@ -1,6 +1,6 @@
 import telebot
 import datetime
-from config import Token_tg 
+from test.config import Token_tg 
 
 bot = telebot.TeleBot(Token_tg)
 
