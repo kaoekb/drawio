@@ -1,6 +1,6 @@
 import telebot
 import datetime
-from test.config import Token_tg 
+from config import Token_tg 
 
 bot = telebot.TeleBot(Token_tg)
 
@@ -34,9 +34,6 @@ def handle_time(message):
                 f.write(str(user_data) + '\n')
             else:
                 f.write(line)
-    # Insert the time of the user's message at the end of the array
-    with open('text.txt', 'a') as f:
-        f.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     # Update the user's appeal date in the array
     with open('text.txt', 'r') as f:
         lines = f.readlines()
@@ -49,7 +46,6 @@ def handle_time(message):
             else:
                 f.write(line)
     bot.send_message(chat_id=message.chat.id, text='Thank you for booking a table!')
-
 
 bot.infinity_polling()
 # bot.polling()
