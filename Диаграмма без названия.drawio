@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T10:14:25.091Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kllI0wfDCN7_nSUOd7nd" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T13:24:40.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="F6e14z9-cDowqmh7xAaB" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,6 +17,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aU7_cbtDEvk05i0n9Riy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="aU7_cbtDEvk05i0n9Riy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aU7_cbtDEvk05i0n9Riy-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="aU7_cbtDEvk05i0n9Riy-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Вы желаете:&lt;br&gt;Забронировать столик&lt;br&gt;Внести изменение в бронь или отказаться от брони&lt;br&gt;Другой вопрос&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -202,6 +205,9 @@
               <mxPoint x="450" y="2395" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aU7_cbtDEvk05i0n9Riy-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aU7_cbtDEvk05i0n9Riy-67" target="aU7_cbtDEvk05i0n9Riy-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aU7_cbtDEvk05i0n9Riy-67" value="успех" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="35" y="2365" width="120" height="60" as="geometry" />
